@@ -22,6 +22,7 @@ defmodule ExParsers.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:unicode, "~> 1.13"},
       {:stream_data, "~> 0.5", only: [:dev, :test]},
       {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
