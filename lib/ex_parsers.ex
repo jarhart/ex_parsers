@@ -16,6 +16,7 @@ defmodule ExParsers do
     defmacro __using__([]) do
       quote do
         use ExParsers.Text.Latin1
+        use ExParsers.Combinators
         import ExParsers.Parse
       end
     end
@@ -42,6 +43,7 @@ defmodule ExParsers do
     defmacro __using__([]) do
       quote do
         use ExParsers.Text.Utf8
+        use ExParsers.Combinators
         import ExParsers.Parse
       end
     end
@@ -56,6 +58,7 @@ defmodule ExParsers do
     defmacro __using__([]) do
       quote do
         use ExParsers.Text.Utf16
+        use ExParsers.Combinators
         import ExParsers.Parse
       end
     end
@@ -70,6 +73,7 @@ defmodule ExParsers do
     defmacro __using__([]) do
       quote do
         use ExParsers.Text.Utf32
+        use ExParsers.Combinators
         import ExParsers.Parse
       end
     end
