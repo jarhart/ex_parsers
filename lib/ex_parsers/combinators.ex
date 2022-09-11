@@ -1,4 +1,7 @@
 defmodule ExParsers.Combinators do
+  @moduledoc """
+  Parser combinators.
+  """
   @spec __using__([]) :: Macro.t()
   defmacro __using__([]) do
     quote do

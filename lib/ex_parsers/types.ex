@@ -1,4 +1,6 @@
 defmodule ExParsers.Types do
+  @moduledoc false
+
   @spec __using__([]) :: Macro.t()
   defmacro __using__([]) do
     quote do

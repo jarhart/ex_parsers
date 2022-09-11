@@ -24,8 +24,8 @@ iex> "42" |> parse(many(one_of(:digit)) |> map(List.to_integer()))
 
 - Support for Latin1 and Unicode
 - Operator precedence parsing
-- Applicative and Monadic combinators
-- Reasonable fast
+- Applicative and monadic combinators
+- Reasonably fast
 
 ## Examples
 
